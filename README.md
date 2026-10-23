@@ -18,7 +18,7 @@ npm run build
 
 ## Personalizar
 
-Edite as constantes no topo de `src/App.jsx`: nome, frase, LinkedIn, tecnologias e interesses. A foto é um avatar ilustrativo local em `src/assets/perfil.svg`: substitua pelo seu retrato e ajuste o import. Os textos são uma base editável porque o HTML da aula anterior não foi fornecido.
+Edite as constantes no topo de `src/App.jsx`: nome, frase, LinkedIn, tecnologias e interesses. O LinkedIn atual aponta para a página inicial; substitua pelo seu perfil. A foto é um avatar ilustrativo local em `src/assets/perfil.svg`: substitua pelo seu retrato e ajuste o import. Os textos são uma base editável porque o HTML da aula anterior não foi fornecido.
 
 - `Cabecalho`: recebe `nome`, `frase`, `foto`, `linkedin`.
 - `Secao`: recebe `titulo` e `children`.

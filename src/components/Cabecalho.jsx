@@ -3,10 +3,10 @@ export default function Cabecalho({ nome, frase, foto, linkedin }) {
     <header className="cabecalho">
       <div className="perfil-foto"><img src={foto} alt={`Avatar ilustrado de ${nome}`} /></div>
       <div className="perfil-texto">
-        <p className="eyebrow">OLÁ, EU SOU</p>
+        <p className="eyebrow">OLÁ, EU SOU O</p>
         <h1>{nome}<span>.</span></h1>
         <p className="frase">{frase}</p>
-        <p className="introducao">Entre uma ideia e outra, estou aprendendo a transformar código em experiências que fazem sentido.</p>
+        <p className="introducao">Tenho 23 anos, e sou graduando em ciências da computação.</p>
         <a className="botao" href={linkedin} target="_blank" rel="noreferrer">Vamos nos conectar <span aria-hidden="true">↗</span></a>
       </div>
     </header>
