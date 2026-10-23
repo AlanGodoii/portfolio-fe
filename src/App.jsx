@@ -9,7 +9,7 @@ import foto from './assets/perfil.svg'
 const perfil = {
   nome: 'Alan',
   frase: 'Estudante de tecnologia. Desenvolvedor em construção.',
-  linkedin: 'https://www.linkedin.com/',
+  linkedin: 'https://www.linkedin.com/in/alan-godoi-bba485281/',
 }
 const tecnologias = ['React', 'JavaScript', 'HTML', 'CSS', 'Python', 'Git']
 const interesses = ['Desenvolvimento web', 'Interfaces e design', 'Aprender coisas novas']
