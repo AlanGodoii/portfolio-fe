@@ -1,7 +1,7 @@
 export default function Cabecalho({ nome, frase, foto, linkedin }) {
   return (
     <header className="cabecalho">
-      <div className="perfil-foto"><img src={foto} alt={`Avatar ilustrado de ${nome}`} /></div>
+      <div className="perfil-foto"><img src={foto} alt={`Foto de ${nome}`} /></div>
       <div className="perfil-texto">
         <p className="eyebrow">OLÁ, EU SOU O</p>
         <h1>{nome}<span>.</span></h1>

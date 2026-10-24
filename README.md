@@ -1,32 +1,30 @@
-# Sobre mim · React
+# Portfólio do Alan
 
-Página pessoal em React + Vite, organizada em componentes e com modo escuro usando `useState`.
+Página pessoal feita com React e Vite. Inclui apresentação, tecnologias, interesses e modo escuro.
 
 ## Executar
 
-Requer Node.js 22.12+ (ambiente validado com Node.js 24).
+Instale o Node.js 22.12 ou superior. No terminal, dentro da pasta do projeto:
 
 ```sh
 npm ci
-npm run dev -- --host 0.0.0.0
+npm run dev
 ```
+
+Abra o endereço informado no terminal.
+
+## Verificar
 
 ```sh
 npm run lint
 npm run build
 ```
 
-## Personalizar
+## Arquivos principais
 
-Edite as constantes no topo de `src/App.jsx`: nome, frase, LinkedIn, tecnologias e interesses. O LinkedIn atual aponta para a página inicial; substitua pelo seu perfil. A foto é um avatar ilustrativo local em `src/assets/perfil.svg`: substitua pelo seu retrato e ajuste o import. Os textos são uma base editável porque o HTML da aula anterior não foi fornecido.
+- `src/App.jsx`: dados pessoais, seções e estado do tema.
+- `src/components/`: cabeçalho, seção, lista de tecnologias e rodapé.
+- `src/index.css`: estilos e cores dos dois temas.
+- `src/assets/perfil.jpeg`: foto de perfil.
 
-- `Cabecalho`: recebe `nome`, `frase`, `foto`, `linkedin`.
-- `Secao`: recebe `titulo` e `children`.
-- `ListaTecnologias`: recebe `itens` e renderiza com `.map()` e `key`.
-- `Rodape`: não recebe props.
-- `src/index.css`: reset, variáveis, estilos e responsividade.
-
-## Entrega
-
-A pasta `src/` contém o código solicitado. Para criar um arquivo sem dependências: `tar -czf /tmp/portfolio-src.tar.gz src`.
-O print da página pode ser feito com ela rodando. Não inclua `node_modules` na entrega.
+As dependências ficam em `node_modules` e a versão de produção em `dist`. Essas pastas são geradas e não precisam ser enviadas ao GitHub.

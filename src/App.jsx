@@ -3,14 +3,14 @@ import Cabecalho from './components/Cabecalho'
 import Secao from './components/Secao'
 import ListaTecnologias from './components/ListaTecnologias'
 import Rodape from './components/Rodape'
-import foto from './assets/perfil.jpg.jpeg'
+import foto from './assets/perfil.jpeg'
 
 const perfil = {
   nome: 'Alan',
   frase: 'no momento estudo desenvolvimento web, e administro minha empresa de suporte em TI.',
   linkedin: 'https://www.linkedin.com/in/alan-godoi-bba485281/',
 }
-const tecnologias = ['Python', 'JavaScript', 'HTML', 'CSS', 'Python', 'Git']
+const tecnologias = ['Python', 'JavaScript', 'HTML', 'CSS', 'Git']
 const interesses = ['Desenvolvimento web', 'Hardwares', 'Investimento']
 
 export default function App() {
